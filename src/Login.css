@@ -1,0 +1,92 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    height: 100vh;
+    background-color: #dce6f5; /* Light blue background */
+  }
+  
+  .login-form {
+    flex: 1;
+    background-color: #dce6f5; /* Light blue */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-section {
+    flex: 1;
+    background-color: #f57c42; /* Orange */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sign-in-title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .signup-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: white; /* White text for orange section */
+  }
+  
+  .signup-text {
+    color: white; /* White text for orange section */
+  }
+  
+  .input-field {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .email-field,
+  .password-field {
+    background-color: #e4edf7; /* Slightly darker blue for input fields */
+  }
+  
+  .forgot-password {
+    color: #555555; /* Grey text for forgot password link */
+    font-size: small;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .sign-in-button,
+  .sign-up-button {
+    padding: 10px 25px;
+    background-color: #f57c42; /* Orange button */
+    color: white; /* White text */
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .sign-in-button:hover,
+  .sign-up-button:hover {
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .back-button {
+    position: absolute; /* Position back button at top-left corner */
+    top: 20px;
+    left: 20px;
+    background-color: transparent; /* Transparent background for back button */
+  }
+  
